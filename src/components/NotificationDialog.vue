@@ -329,6 +329,7 @@ export default {
                 WeCom: "WeCom (企业微信群机器人)",
                 ServerChan: "ServerChan (Server酱)",
                 PushPlus: "PushPlus (推送加)",
+                QingTui: "QingTui (轻推机器人)",
                 SpugPush: "SpugPush（Spug推送助手）",
                 smsc: "SMSC",
                 smsir: "SMS.IR",

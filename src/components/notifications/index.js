@@ -48,6 +48,7 @@ import PushDeer from "./PushDeer.vue";
 import Pushover from "./Pushover.vue";
 import PushPlus from "./PushPlus.vue";
 import Pushy from "./Pushy.vue";
+import QingTui from "./QingTui.vue";
 import RocketChat from "./RocketChat.vue";
 import ServerChan from "./ServerChan.vue";
 import SerwerSMS from "./SerwerSMS.vue";
@@ -146,6 +147,7 @@ const NotificationFormList = {
     pushover: Pushover,
     PushPlus: PushPlus,
     pushy: Pushy,
+    QingTui: QingTui,
     "rocket.chat": RocketChat,
     serwersms: SerwerSMS,
     signal: Signal,

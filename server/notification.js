@@ -48,6 +48,7 @@ const PushDeer = require("./notification-providers/pushdeer");
 const Pushover = require("./notification-providers/pushover");
 const PushPlus = require("./notification-providers/pushplus");
 const Pushy = require("./notification-providers/pushy");
+const QingTui = require("./notification-providers/qingtui");
 const RocketChat = require("./notification-providers/rocket-chat");
 const SerwerSMS = require("./notification-providers/serwersms");
 const Signal = require("./notification-providers/signal");
@@ -157,6 +158,7 @@ class Notification {
             new Pushover(),
             new PushPlus(),
             new Pushy(),
+            new QingTui(),
             new RocketChat(),
             new ServerChan(),
             new SerwerSMS(),
